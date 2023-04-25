@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 .header {
@@ -69,6 +70,224 @@
     border: 5px dashed green;
     text-align: center;
     margin: 20px;
+}
+
+.li-openings-1 {
+    list-style: none;
+}
+
+.grid-attack-on-titan-openings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-openings-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-1-openings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-one-punch-man-openings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-openings-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-2-openings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-boku-no-hero-academia-openings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-openings-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-3-openings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-hunter-x-hunter-2011-openings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-openings-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-4-openings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-sword-art-online-openings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-openings-5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-5-openings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.li-endings-1 {
+    list-style: none;
+}
+
+.grid-attack-on-titan-endings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-endings-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-1-endings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-one-punch-man-endings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-endings-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-2-endings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-boku-no-hero-academia-endings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-endings-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-3-endings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-hunter-x-hunter-2011-endings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-endings-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-4-endings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-sword-art-online-endings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-endings-5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-5-endings {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .h1-openings {
