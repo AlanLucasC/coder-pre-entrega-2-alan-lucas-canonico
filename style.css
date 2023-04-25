@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: lightseagreen;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.a-carousel {
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.p-carousel {
+    text-decoration: none;
+    color: rgba(243, 126, 17, 0.856);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Title {
+    font-size: 48px;
+    color: rgba(243, 126, 17, 0.856);
+    border: solid black;
+    border-radius: 100px;
+    text-align: center;
+    border-width: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 60px;
+}
+
+.index-h3-section-anime-title {
+    font-size: 32px;
+    color: blue;
+    border: 6px solid blue;
+    text-align: center;
+    margin: 10px;
+}
+
+.footer {
+    font-size: 30px;
+    color: green;
+    border: 5px dashed green;
+    text-align: center;
+    margin: 20px;
+}
+
+.h1-openings {
+    font-size: 32px;
+    color: blue;
+    border: 6px solid blue;
+    text-align: center;
+    margin: 10px;
+}
+
+.h1-endings {
+    font-size: 32px;
+    color: blue;
+    border: 6px solid blue;
+    text-align: center;
+    margin: 10px;
+}
+
+.a-openings {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.a-endings {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.h1-anime-list {
+    font-size: 36px;
+    color: red;
+    text-align: center;
+}
+
+.h2-anime-list {
+    font-size: 24px;
+    color: blue;
+    border: 4px solid blue;
+}
+
+.p-anime-list {
+    font-size: 20px;
+    color: green;
+}
