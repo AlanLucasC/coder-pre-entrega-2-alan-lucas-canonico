@@ -71,6 +71,10 @@
     margin: 20px;
 }
 
+.section-1-openings {
+    text-decoration: none;
+}
+
 .h1-openings {
     font-size: 32px;
     color: blue;
@@ -103,6 +107,7 @@
     font-size: 36px;
     color: red;
     text-align: center;
+    margin: 40px;
 }
 
 .h2-anime-list {
@@ -114,4 +119,109 @@
 .p-anime-list {
     font-size: 20px;
     color: green;
+}
+
+.grid-attack-on-titan-anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-anime-list-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-1-anime-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-one-punch-man-anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-anime-list-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-2-anime-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-boku-no-hero-academia-anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-anime-list-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-3-anime-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-hunter-x-hunter-2011-anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-anime-list-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-4-anime-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-sword-art-online-anime-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;
+    margin: 40px;
+}
+
+.div-anime-list-5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.img-grid-5-anime-list {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
