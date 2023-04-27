@@ -1,3 +1,5 @@
+/* NOTA, LOS RESPONSIVE ESTAN IMPLEMENTADOS EN LA PAGINA INDEX.HTML Y EN LA PÁGINA CONTACT.HTML */
+
 * {
     padding: 0;
     margin: 0;
@@ -56,20 +58,94 @@
     margin-top: 60px;
 }
 
-.index-h3-section-anime-title {
-    font-size: 32px;
-    color: blue;
-    border: 6px solid blue;
-    text-align: center;
-    margin: 10px;
-}
-
 .footer {
     font-size: 30px;
     color: green;
     border: 5px dashed green;
     text-align: center;
     margin: 20px;
+}
+
+@media screen and (max-width: 468px) {
+    .title {
+        font-size: 24px;
+        border-width: 2px;
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .h2-text-index {
+        font-size: 18px;
+        text-align: center;
+    }
+    .h3-text-index {
+        text-align: center;
+    }
+    .section-index {
+        text-align: center;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .a-carousel {
+        font-size: 16px;
+    }
+    .p-carousel {
+        font-size: 14px;
+    }
+    .section-contact {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        font-size: 12px;
+        border: 2px dashed green;
+    }
+}
+
+@media screen and (min-width: 469px) and (max-width: 968px) {
+    .title {
+        font-size: 32px;
+        border-width: 3px;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .h2-text-index {
+        font-size: 22px;
+        text-align: center;
+    }
+    .h3-text-index {
+        text-align: center;
+    }
+    .section-index {
+        text-align: center;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .a-carousel {
+        font-size: 20px;
+    }
+    .p-carousel {
+        font-size: 18px;
+    }
+    .section-contact {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        font-size: 16px;
+        border: 4px dashed green;
+    }
+}
+
+.index-h3-section-anime-title {
+    font-size: 32px;
+    color: blue;
+    border: 6px solid blue;
+    text-align: center;
+    margin: 10px;
 }
 
 .li-openings-1 {
